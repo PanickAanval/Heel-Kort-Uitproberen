@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3defc4d62cdc8504fbf00d1779997b0a, type: 2}
     - target: {fileID: 919132149155446097, guid: a2deda00f1893cd4194144ce7e3254d9, type: 3}
       propertyPath: m_Name
-      value: PressurePlate
+      value: PressurePlate Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2deda00f1893cd4194144ce7e3254d9, type: 3}
