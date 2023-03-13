@@ -1397,7 +1397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.5
+      value: -55.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1764,6 +1764,7 @@ GameObject:
   - component: {fileID: 195693640}
   - component: {fileID: 195693639}
   - component: {fileID: 195693638}
+  - component: {fileID: 195693641}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1850,6 +1851,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195693636}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &195693641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195693636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 3
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &197056560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3204,6 +3227,7 @@ GameObject:
   - component: {fileID: 331946923}
   - component: {fileID: 331946922}
   - component: {fileID: 331946921}
+  - component: {fileID: 331946924}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -3290,6 +3314,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331946919}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &331946924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331946919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 92
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!4 &337845840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4415965052706027367, guid: 5babc7266d11edb4da5ec3d0290cefbe, type: 3}
@@ -4285,7 +4331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.75
+      value: 16.75
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4293,7 +4339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.5
+      value: -62.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4962,6 +5008,7 @@ GameObject:
   - component: {fileID: 487904474}
   - component: {fileID: 487904473}
   - component: {fileID: 487904472}
+  - component: {fileID: 487904475}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -5048,6 +5095,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487904470}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &487904475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487904470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 72
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1 &489415612
 GameObject:
   m_ObjectHideFlags: 0
@@ -5486,6 +5555,7 @@ GameObject:
   - component: {fileID: 516333650}
   - component: {fileID: 516333649}
   - component: {fileID: 516333648}
+  - component: {fileID: 516333651}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -5572,6 +5642,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516333646}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &516333651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516333646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 62
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &527447205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5956,6 +6048,7 @@ GameObject:
   - component: {fileID: 538515801}
   - component: {fileID: 538515800}
   - component: {fileID: 538515799}
+  - component: {fileID: 538515802}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -6042,6 +6135,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538515797}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &538515802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538515797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 6
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &538708054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6409,6 +6524,7 @@ GameObject:
   - component: {fileID: 589278837}
   - component: {fileID: 589278836}
   - component: {fileID: 589278835}
+  - component: {fileID: 589278838}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -6495,6 +6611,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589278833}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &589278838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589278833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 9
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!4 &595976419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4415965052706027367, guid: 5babc7266d11edb4da5ec3d0290cefbe, type: 3}
@@ -7224,6 +7362,7 @@ GameObject:
   - component: {fileID: 635765677}
   - component: {fileID: 635765676}
   - component: {fileID: 635765675}
+  - component: {fileID: 635765678}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -7310,6 +7449,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635765673}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &635765678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635765673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 8
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1 &642695128
 GameObject:
   m_ObjectHideFlags: 0
@@ -7641,7 +7802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62.5
+      value: -55.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8526,6 +8687,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4415965052706027367, guid: 5babc7266d11edb4da5ec3d0290cefbe, type: 3}
   m_PrefabInstance: {fileID: 734057501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &734058224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4707398114220487590, guid: 15690947d8314dc47af41e276241d028, type: 3}
+  m_PrefabInstance: {fileID: 197056560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &734058227
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734058224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2f549fe550c9e4249a94ac215f43c969, type: 3}
 --- !u!1001 &740870577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9111,7 +9291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801759975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.5, y: -82.64587, z: 79.9}
+  m_LocalPosition: {x: -27.540339, y: -80.50203, z: 56.97503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9119,8 +9299,8 @@ Transform:
   - {fileID: 1603174029}
   - {fileID: 1724838615}
   - {fileID: 2023188151}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1058028731}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &806422313
 PrefabInstance:
@@ -10444,7 +10624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.75
+      value: 9.75
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10452,7 +10632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.5
+      value: -62.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10552,6 +10732,7 @@ GameObject:
   - component: {fileID: 953093854}
   - component: {fileID: 953093857}
   - component: {fileID: 953093858}
+  - component: {fileID: 953093859}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -10611,12 +10792,26 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953093853}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 1.9806908
   m_Direction: 1
   m_Center: {x: 0, y: -0.3078453, z: 0}
+--- !u!136 &953093859
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953093853}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &955334465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11271,6 +11466,99 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4415965052706027367, guid: 5babc7266d11edb4da5ec3d0290cefbe, type: 3}
   m_PrefabInstance: {fileID: 1033872508}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1058028730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058028731}
+  - component: {fileID: 1058028732}
+  m_Layer: 0
+  m_Name: Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1058028731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058028730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.959661, y: -2.1438332, z: 22.924974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 801759976}
+  - {fileID: 1600191058}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058028732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058028730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38bdc2f28dc5534382523890875f23f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bRune1Lit: 0
+  bRune2Lit: 0
+  bRune3Lit: 0
+  bRune4Lit: 0
+  bRune5Lit: 0
+  bRune6Lit: 0
+  bRune7Lit: 0
+  bRune8Lit: 0
+  bRune9Lit: 0
+  bRune12Lit: 0
+  bRune22Lit: 0
+  bRune32Lit: 0
+  bRune42Lit: 0
+  bRune52Lit: 0
+  bRune62Lit: 0
+  bRune72Lit: 0
+  bRune82Lit: 0
+  bRune92Lit: 0
+  bRune1PLit: 0
+  bRune2PLit: 0
+  bRune3PLit: 0
+  bRune4PLit: 0
+  bRune5PLit: 0
+  bRune6PLit: 0
+  bRune7PLit: 0
+  bRune8PLit: 0
+  bRune9PLit: 0
+  rune1: {fileID: 1202110457}
+  rune2: {fileID: 1662087125}
+  rune3: {fileID: 195693636}
+  rune4: {fileID: 1935604534}
+  rune5: {fileID: 2125154049}
+  rune6: {fileID: 538515797}
+  rune7: {fileID: 1076303212}
+  rune8: {fileID: 635765673}
+  rune9: {fileID: 589278833}
+  rune12: {fileID: 1446931585}
+  rune22: {fileID: 1595857508}
+  rune32: {fileID: 1953615988}
+  rune42: {fileID: 1341660985}
+  rune52: {fileID: 1166640146}
+  rune62: {fileID: 516333646}
+  rune72: {fileID: 487904470}
+  rune82: {fileID: 1295575138}
+  rune92: {fileID: 331946919}
+  Door1: {fileID: 1306700964}
+  Door2: {fileID: 1255103247}
 --- !u!1 &1058613382
 GameObject:
   m_ObjectHideFlags: 0
@@ -11448,7 +11736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.75
+      value: 16.75
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11456,7 +11744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.5
+      value: -55.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11505,6 +11793,7 @@ GameObject:
   - component: {fileID: 1076303216}
   - component: {fileID: 1076303215}
   - component: {fileID: 1076303214}
+  - component: {fileID: 1076303217}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -11591,6 +11880,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076303212}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1076303217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076303212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 7
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1 &1078037107
 GameObject:
   m_ObjectHideFlags: 0
@@ -12530,6 +12841,7 @@ GameObject:
   - component: {fileID: 1166640150}
   - component: {fileID: 1166640149}
   - component: {fileID: 1166640148}
+  - component: {fileID: 1166640151}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -12616,6 +12928,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166640146}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1166640151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166640146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 52
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &1171819753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12959,6 +13293,7 @@ GameObject:
   - component: {fileID: 1202110461}
   - component: {fileID: 1202110460}
   - component: {fileID: 1202110459}
+  - component: {fileID: 1202110462}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -13045,6 +13380,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202110457}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1202110462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202110457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 1
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1 &1203570990
 GameObject:
   m_ObjectHideFlags: 0
@@ -13519,6 +13876,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4415965052706027367, guid: 5babc7266d11edb4da5ec3d0290cefbe, type: 3}
   m_PrefabInstance: {fileID: 1254380622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1255103247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2975445371797364274, guid: 15690947d8314dc47af41e276241d028, type: 3}
+  m_PrefabInstance: {fileID: 204430612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1255103251
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255103247}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8678823145569952518, guid: 2f549fe550c9e4249a94ac215f43c969, type: 3}
 --- !u!1 &1285929826
 GameObject:
   m_ObjectHideFlags: 0
@@ -13749,6 +14125,7 @@ GameObject:
   - component: {fileID: 1295575142}
   - component: {fileID: 1295575141}
   - component: {fileID: 1295575140}
+  - component: {fileID: 1295575143}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -13835,6 +14212,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295575138}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1295575143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295575138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 82
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+--- !u!1 &1299592176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4707398114220487590, guid: 15690947d8314dc47af41e276241d028, type: 3}
+  m_PrefabInstance: {fileID: 204430612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1299592179
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299592176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2f549fe550c9e4249a94ac215f43c969, type: 3}
 --- !u!1 &1300412118
 GameObject:
   m_ObjectHideFlags: 0
@@ -13998,6 +14416,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
   m_PrefabInstance: {fileID: 1302191323}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1306700964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2975445371797364274, guid: 15690947d8314dc47af41e276241d028, type: 3}
+  m_PrefabInstance: {fileID: 197056560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1306700968
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306700964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8678823145569952518, guid: 2f549fe550c9e4249a94ac215f43c969, type: 3}
 --- !u!1001 &1309897388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14027,7 +14464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.5
+      value: -62.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14386,6 +14823,7 @@ GameObject:
   - component: {fileID: 1341660989}
   - component: {fileID: 1341660988}
   - component: {fileID: 1341660987}
+  - component: {fileID: 1341660990}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -14472,6 +14910,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341660985}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1341660990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341660985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 42
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &1346341711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15481,6 +15941,7 @@ GameObject:
   - component: {fileID: 1446931589}
   - component: {fileID: 1446931588}
   - component: {fileID: 1446931587}
+  - component: {fileID: 1446931590}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -15567,6 +16028,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446931585}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1446931590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446931585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 12
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!4 &1450526633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2390455447061233277, guid: 50eda2c93c54a244096c24f1c643e872, type: 3}
@@ -16859,6 +17342,7 @@ GameObject:
   - component: {fileID: 1595857512}
   - component: {fileID: 1595857511}
   - component: {fileID: 1595857510}
+  - component: {fileID: 1595857513}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -16945,6 +17429,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595857508}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1595857513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595857508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 22
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &1598515437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17035,7 +17541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600191057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3, y: -82.64587, z: 79.9}
+  m_LocalPosition: {x: 23.259663, y: -80.50203, z: 56.97503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17043,8 +17549,8 @@ Transform:
   - {fileID: 1798585044}
   - {fileID: 1496359081}
   - {fileID: 761648781}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1058028731}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1603174028
 GameObject:
@@ -17342,6 +17848,7 @@ GameObject:
   - component: {fileID: 1662087129}
   - component: {fileID: 1662087128}
   - component: {fileID: 1662087127}
+  - component: {fileID: 1662087130}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -17428,6 +17935,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662087125}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1662087130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662087125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 2
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &1664715315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18478,7 +19007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62.5
+      value: -48.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18536,7 +19065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.75
+      value: 9.75
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19408,6 +19937,7 @@ GameObject:
   - component: {fileID: 1935604538}
   - component: {fileID: 1935604537}
   - component: {fileID: 1935604536}
+  - component: {fileID: 1935604539}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -19494,6 +20024,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935604534}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1935604539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935604534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 4
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1 &1937136159
 GameObject:
   m_ObjectHideFlags: 0
@@ -19817,6 +20369,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4415965052706027367, guid: 5babc7266d11edb4da5ec3d0290cefbe, type: 3}
   m_PrefabInstance: {fileID: 1946446592}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1947416070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6096388482556211285, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
+  m_PrefabInstance: {fileID: 129859756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1947416071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947416070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 12
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1 &1953615988
 GameObject:
   m_ObjectHideFlags: 0
@@ -19829,6 +20408,7 @@ GameObject:
   - component: {fileID: 1953615992}
   - component: {fileID: 1953615991}
   - component: {fileID: 1953615990}
+  - component: {fileID: 1953615993}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -19915,6 +20495,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953615988}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1953615993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953615988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 32
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &1961984718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20055,7 +20657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.75
+      value: 23.75
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20063,7 +20665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62.5
+      value: -48.5
       objectReference: {fileID: 0}
     - target: {fileID: 6904415885842967279, guid: fb42eb341d8e41c4cbd33a9bf127487b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20112,6 +20714,7 @@ GameObject:
   - component: {fileID: 1972601257}
   - component: {fileID: 1972601258}
   - component: {fileID: 1972601259}
+  - component: {fileID: 1972601260}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -20171,12 +20774,26 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972601255}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 1.9324477
   m_Direction: 1
   m_Center: {x: 0, y: -0.31922972, z: 0}
+--- !u!136 &1972601260
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972601255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1981813309
 GameObject:
   m_ObjectHideFlags: 0
@@ -21062,6 +21679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bunny1
       objectReference: {fileID: 0}
+    - target: {fileID: 8336300255045537392, guid: f4dbda61433a0e64593dcb34abae89a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8717750922640135370, guid: f4dbda61433a0e64593dcb34abae89a2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -21606,6 +22227,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1972601256}
     m_Modifications:
+    - target: {fileID: 3230217173061287237, guid: f4dbda61433a0e64593dcb34abae89a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8336300255045537392, guid: f4dbda61433a0e64593dcb34abae89a2, type: 3}
       propertyPath: m_Name
       value: bunny2
@@ -21994,6 +22619,7 @@ GameObject:
   - component: {fileID: 2125154053}
   - component: {fileID: 2125154052}
   - component: {fileID: 2125154051}
+  - component: {fileID: 2125154054}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -22080,6 +22706,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125154049}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2125154054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125154049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217893ea1e2ddaa448559e64a28f154f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeType: 5
+  PC: {fileID: 1058028732}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!1001 &2132416529
 PrefabInstance:
   m_ObjectHideFlags: 0
