@@ -64,7 +64,7 @@ Material:
     m_Ints: []
     m_Floats:
     - PixelSnap: 0
-    - _AmbientCol: 0
+    - _AmbientCol: 0.051
     - _BumpScale: 1
     - _Clipped: 0
     - _ColBright: 0
@@ -101,7 +101,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _OtlColor: {r: 0.5568628, g: 0, b: 0.5526289, a: 1}
+    - _OtlColor: {r: 0.4245283, g: 0, b: 0.3368468, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShnColor: {r: 1, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []

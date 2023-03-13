@@ -27,13 +27,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientCol: 0
+    - _AmbientCol: 0.051
     - _Clipped: 0
     - _ColBright: 0
     - _ColIntense: 1
     - _Lumin: 0
     - _MaxLight: 1
-    - _MinLight: 0
+    - _MinLight: 0.065
     - _Offset: 0
     - _Segmented: 1
     - _ShnIntense: 0
@@ -43,6 +43,6 @@ Material:
     - _Steps: 3
     - _StpSmooth: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.8379316, g: 0.8757567, b: 0.990566, a: 1}
     - _ShnColor: {r: 1, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
