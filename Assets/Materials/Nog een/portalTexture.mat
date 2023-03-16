@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: portalTexture
-  m_Shader: {fileID: 4800000, guid: 481153b840b6e408da95e6afbe176397, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7cd5de0b884b14f88ab763ef465e1799, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _SEGMENTED_ON
@@ -59,7 +59,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientCol: 0
+    - _AmbientCol: 0.102
     - _BumpScale: 1
     - _Clipped: 0
     - _ColBright: 0
@@ -73,7 +73,7 @@ Material:
     - _Lumin: 0
     - _MaxLight: 1
     - _Metallic: 0
-    - _MinLight: 0
+    - _MinLight: 0.721
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Offset: 0

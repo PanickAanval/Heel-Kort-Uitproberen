@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 237b90ca20a353b4299af3d33fcdab07, type: 2}
     - target: {fileID: 4707398114220487590, guid: 15690947d8314dc47af41e276241d028, type: 3}
       propertyPath: m_Name
-      value: Cube.002
+      value: BetterDoor
       objectReference: {fileID: 0}
     - target: {fileID: 4831720514724861326, guid: 15690947d8314dc47af41e276241d028, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -77,3 +77,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15690947d8314dc47af41e276241d028, type: 3}
+--- !u!1 &6999776174593502063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4707398114220487590, guid: 15690947d8314dc47af41e276241d028, type: 3}
+  m_PrefabInstance: {fileID: 2337433064765380809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4898144272257040591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999776174593502063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05445409, y: 0.0058326977, z: 0.021086056}
+  m_Center: {x: 0.009996436, y: 0.007083558, z: 0.0005430264}
+--- !u!65 &5409751706188618058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999776174593502063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05445409, y: 0.0052597364, z: 0.021086056}
+  m_Center: {x: 0.009996436, y: -0.0073702657, z: 0.0005430264}
